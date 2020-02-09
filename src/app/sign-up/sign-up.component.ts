@@ -39,5 +39,6 @@ export class SignUpComponent implements OnInit {
     return this.signUpForm.get("password").hasError("hasSpecialCharacters");
   }
   isPasswordNumberNeeded(){
-    return this.signUpForm.get("password").hasError("hasNumber");  }
+    return this.signUpForm.get("password").hasError("hasNumber");  
+  }
 }

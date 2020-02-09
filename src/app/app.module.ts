@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import { HomeComponent } from './home/home.component'; 
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
