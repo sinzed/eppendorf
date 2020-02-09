@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +7,8 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   title = 'eppendorf';
-  constructor(private router: Router){
+  constructor(){
 
   }
-  
-  signUp(){
-    this.router.navigateByUrl("signup");
-  }
-  
-  showData(){
-    this.router.navigateByUrl("viewer");
-  }
+
 }
