@@ -10,13 +10,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import {MatInputModule} from '@angular/material/input'; 
+import {MatInputModule} from '@angular/material/input';
+import { HomeComponent } from './home/home.component'; 
+import { MatPaginatorModule } from '@angular/material/paginator';
 
 @NgModule({
   declarations: [
     AppComponent,
     ViewerComponent,
-    SignUpComponent
+    SignUpComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,8 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     HttpClientModule,
     ReactiveFormsModule,
-    MatInputModule
+    MatInputModule,
+    MatPaginatorModule
 
   ],
   providers: [],
