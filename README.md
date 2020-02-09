@@ -1,27 +1,30 @@
-# Eppendorf
+# Eppendorf Front End Challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
+- Use the data in the provided data.json file to visualise a sortable table/list of entries
+- Create a simple form with the folowing requirements
 
-## Development server
+  - Name Input
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+    - required
+    - at least 2 characters
 
-## Code scaffolding
+  - Email Input
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+    - required
+    - simple email validation
 
-## Build
+  - Password Input
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    - required
+    - at least 8 characters
+    - at least one uppercase letter
+    - at least one special character
+    - at least one number
 
-## Running unit tests
+- It's up to you what technologies/libraries/frameworks you use. You should be able to justify your decision though.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - You can use external resources/libraries as you might need/want them
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Don't concentrate on fully completing the task. Rather focus on clean and reasonable application and code structure keeping in mind that a project might need to scale regarding team and application size
+- Don't invest more than 6-8 hours on the implementation
+- The project should be set up and versioned using a git repository, preferably using Github or similar to give us access to the repository when you are done.
